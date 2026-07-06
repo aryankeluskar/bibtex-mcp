@@ -72,7 +72,7 @@ Equivalently, use the explicit stdio command form:
 npx add-mcp "npx -y bibtex-mcp" --name scholar-bibtex -a codex -y
 ```
 
-Before npm publishing, install directly from the public GitHub repo:
+You can also install directly from the public GitHub repo:
 
 ```bash
 npx add-mcp "npx -y github:aryankeluskar/bibtex-mcp" --name scholar-bibtex -a codex -y

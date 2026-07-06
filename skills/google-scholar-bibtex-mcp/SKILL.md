@@ -29,7 +29,7 @@ If direct package-name installation is not suitable, use the explicit command fo
 npx add-mcp "npx -y bibtex-mcp" --name scholar-bibtex -a codex -y
 ```
 
-Before npm publishing, install from the public GitHub repo:
+You can also install from the public GitHub repo:
 
 ```bash
 npx add-mcp "npx -y github:aryankeluskar/bibtex-mcp" --name scholar-bibtex -a codex -y
