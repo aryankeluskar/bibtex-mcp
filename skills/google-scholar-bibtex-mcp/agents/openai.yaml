@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google Scholar BibTeX MCP"
+  short_description: "Install and use the Google Scholar BibTeX MCP server."
+  default_prompt: "Use the Google Scholar BibTeX MCP to fetch multiple Scholar-sourced BibTeX options for a paper title, preferring archival conference or journal records over preprints."

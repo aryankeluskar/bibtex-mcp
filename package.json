@@ -1,0 +1,55 @@
+{
+  "name": "bibtex-mcp",
+  "version": "0.1.0",
+  "description": "Fetch BibTeX records from the Google Scholar citation flow via CLI or MCP.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryankeluskar/bibtex-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aryankeluskar/bibtex-mcp/issues"
+  },
+  "homepage": "https://github.com/aryankeluskar/bibtex-mcp#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "bibtex",
+    "mcp",
+    "google-scholar",
+    "citations",
+    "scholar"
+  ],
+  "type": "module",
+  "files": [
+    "dist",
+    "src",
+    "skills",
+    "README.md"
+  ],
+  "bin": {
+    "scholar-bibtex": "./dist/cli.js",
+    "bibtex-mcp": "./dist/mcp.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build",
+    "start": "node dist/mcp.js",
+    "cli": "node dist/cli.js",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "stress": "node scripts/stress-test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "cheerio": "^1.1.2",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
