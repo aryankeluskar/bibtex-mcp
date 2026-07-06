@@ -29,8 +29,8 @@
     "README.md"
   ],
   "bin": {
-    "scholar-bibtex": "./dist/cli.js",
-    "bibtex-mcp": "./dist/mcp.js"
+    "scholar-bibtex": "dist/cli.js",
+    "bibtex-mcp": "dist/mcp.js"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
